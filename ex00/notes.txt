@@ -1,0 +1,8 @@
+Why I need to include header even if I define the namespace?
+Namespace gives the compiler the definition of the function
+but it does know where the code exists. Header tells the compiler
+where the function is declared.
+
+Check if including <cctype> is allowed
+Check if including <string.h> is allowed
+
