@@ -23,7 +23,7 @@ class Contact
     public:
         Contact()
             : firstname(""), lastname(""), nickname(""), phonenumber(""), darkestsecret("") {}
-        
+
         void    setFirstname(const std::string& newFirstname)
         {
             firstname = newFirstname;
