@@ -9,8 +9,7 @@
 /*   Updated: 2024/12/29 18:14:28 by omartela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
+#pragma once
 #include "Contact.hpp"
 
 class PhoneBook
