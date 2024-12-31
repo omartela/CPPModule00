@@ -16,7 +16,7 @@ TARGET = phonebook
 INC_DIR = includes
 SRC = src/main.cpp src/PhoneBook.cpp src/utilities.cpp
 OBJ = $(SRC:.cpp=.o)
-CFLAGS = -Wall -Wextra -I$(INC_DIR) -g
+CFLAGS = -Wall -Wextra -I$(INC_DIR)
 
 all: $(TARGET)
 
