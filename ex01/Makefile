@@ -27,6 +27,8 @@ $(TARGET): $(OBJ)
 	$(COMPILER) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ) $(TARGET)
+	rm -f $(OBJ)
+fclean:
+	rm -f $(TARGET)
 
 re: clean all
