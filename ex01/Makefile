@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-COMPILER = g++
+COMPILER = c++
 
 TARGET = phonebook
 INC_DIR = includes

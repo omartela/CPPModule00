@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-COMPILER = g++
+COMPILER = c++
 CFLAGS = -Wall -Wextra -std=c++98
 
 TARGET = megaphone
