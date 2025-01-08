@@ -28,6 +28,6 @@ $(TARGET): $(OBJ)
 clean:
 	rm -f $(OBJ)
 fclean:
-	rm -f $(TARGET)
+	rm -f $(OBJ) $(TARGET)
 
 re: clean all
