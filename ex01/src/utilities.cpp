@@ -68,6 +68,10 @@ int convert_string_to_int(std::string &str)
             std::cout << "Out of range: The number is too large to fit into an int." << std::endl;
             return (-1);
         }
+        catch (const std::exception &e)
+        {
+            std::cout << "Error happened when using std::stoi to convert string to integer." << std::endl;
+        }
     } 
     else 
     {
