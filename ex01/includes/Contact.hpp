@@ -21,56 +21,15 @@ class Contact
         std::string phonenumber;
         std::string darkestsecret;
     public:
-        Contact()
-            : firstname(""), lastname(""), nickname(""), phonenumber(""), darkestsecret("") {}
-
-        void    setFirstname(const std::string& newFirstname)
-        {
-            firstname = newFirstname;
-        }
-
-        void    setLastname(const std::string& newLastname)
-        {
-            lastname = newLastname;
-        }
-
-        void    setNickname(const std::string& newNickname)
-        {
-            nickname = newNickname;
-        }
-
-        void    setPhonenumber(const std::string& newPhonenumber)
-        {
-            phonenumber = newPhonenumber;
-        }
-
-        void    setDarkestsecret(const std::string& newDarkestsecret)
-        {
-            darkestsecret = newDarkestsecret;
-        }
-
-        std::string getFirstname() const
-        {
-            return (firstname);
-        }
-
-        std::string getLastname() const
-        {
-            return (lastname);
-        }
-
-        std::string getNickname() const
-        {
-            return (nickname);
-        }
-
-        std::string getPhonenumber() const
-        {
-            return (phonenumber);
-        }
-
-        std::string getDarkestsecret() const
-        {
-            return (darkestsecret);
-        }
+        Contact();
+        void    setFirstname(const std::string& newFirstname);
+        void    setLastname(const std::string& newLastname);
+        void    setNickname(const std::string& newNickname);
+        void    setPhonenumber(const std::string& newPhonenumber);
+        void    setDarkestsecret(const std::string& newDarkestsecret);
+        std::string getFirstname() const;
+        std::string getLastname() const;
+        std::string getNickname() const;
+        std::string getPhonenumber() const;
+        std::string getDarkestsecret() const;
 };

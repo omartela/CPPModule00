@@ -14,7 +14,7 @@ COMPILER = c++
 
 TARGET = phonebook
 INC_DIR = includes
-SRC = src/main.cpp src/PhoneBook.cpp src/utilities.cpp
+SRC = src/main.cpp src/PhoneBook.cpp src/Contact.cpp src/utilities.cpp
 OBJ = $(SRC:.cpp=.o)
 CFLAGS = -Wall -Wextra -Werror -I$(INC_DIR)
 
@@ -31,4 +31,4 @@ clean:
 fclean:
 	rm -f $(OBJ) $(TARGET)
 
-re: clean all
+re: fclean all
