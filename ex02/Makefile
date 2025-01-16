@@ -30,4 +30,4 @@ clean:
 fclean:
 	rm -f $(OBJ) $(TARGET)
 
-re: clean all
+re: fclean all
