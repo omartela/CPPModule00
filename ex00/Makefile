@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 COMPILER = c++
-CFLAGS = -Wall -Wextra -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 TARGET = megaphone
 SRC = megaphone.cpp
